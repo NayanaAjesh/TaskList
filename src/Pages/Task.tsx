@@ -15,7 +15,7 @@ function Task() {
 
     const handleTask = () => {
         setTask([...task, {name: newTask, priority: priority}]);
-        console.log('hiiii', task);
+        console.log('Switch ssh', task);
     }
     useEffect(() => {
         console.log('new', newTask, task);

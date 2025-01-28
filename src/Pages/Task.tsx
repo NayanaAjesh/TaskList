@@ -15,7 +15,7 @@ function Task() {
 
     const handleTask = () => {
         setTask([...task, {name: newTask, priority: priority}]);
-        console.log('Switch nayana ssh jan 28', task);
+        console.log('Switch nayana s ssh jan 28', task);
     }
     useEffect(() => {
         console.log('new', newTask, task);

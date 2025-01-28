@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button, Stack } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface ITask {
     name: string;
